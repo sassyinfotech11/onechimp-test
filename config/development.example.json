@@ -1,0 +1,29 @@
+{
+  "onechimp": {
+    "host": "localhost",
+    "port": 8080
+  },
+  
+  "database": {
+    "host": "localhost",
+    "name": "onechimp_dev",
+    "username": "",
+    "password": "",
+    "port": 27017
+  },
+
+  "jwt": {
+    "secret": "shhhh"
+  },
+
+  "redis": {
+    "host": "localhost",
+    "port": 6379
+  },
+
+  "facebook": {
+    "clientID": "FACEBOOK_CLIENTID",
+    "clientSecret": "FACEBOOK_CLIENT_SECRET",
+    "callbackURL": "http://localhost:8080/api/facebook/callback"
+  }
+}
